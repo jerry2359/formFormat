@@ -3,13 +3,13 @@
 不依赖任何框架和库。
 
 ### 例子
-```html```
+``````
 <input type="text">
 <input type="button" value="提交">
 <input type="checkbox">
-```html```
+``````
 
-```js```
+``````
 // 可以打开html中的demo.html，将以下注释打开运行即可查看效果。
 var inputs = document.getElementsByTagName('input');
 inputs[1].onclick = function() {
@@ -70,4 +70,4 @@ inputs[1].onclick = function() {
     //验证网址
     //console.log( formFormat.isUrl(inputs[0].value) );
 };
-```js```
+``````
